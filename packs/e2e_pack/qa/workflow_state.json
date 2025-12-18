@@ -1,0 +1,216 @@
+{
+  "pack_name": "e2e_pack",
+  "started_at": "2025-12-18T03:10:44.374237+00:00",
+  "max_rounds": 3,
+  "quality_threshold": 8.5,
+  "rounds": [
+    {
+      "round_num": 1,
+      "timestamp": "2025-12-18T03:14:23.404728+00:00",
+      "prompts_used": {
+        "brb": "Be right back screen overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, room for status note, no people",
+        "ending": "Stream ending screen overlay, thank you zone, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, balanced composition",
+        "live": "Live streaming overlay with chat frame, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, minimal clutter",
+        "starting": "Stream starting soon overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, negative space for title",
+        "thumbnail_background": "YouTube thumbnail background, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, no text"
+      },
+      "evaluation": {
+        "pack_name": "e2e_pack",
+        "overall_score": 8.1,
+        "dimension_scores": [
+          {
+            "dimension": "brand_consistency",
+            "score": 9.0,
+            "weight": 0.3,
+            "justification": "The neon city theme is consistently applied across all images with a cohesive color palette and style.",
+            "issues": []
+          },
+          {
+            "dimension": "technical_quality",
+            "score": 8.0,
+            "weight": 0.25,
+            "justification": "Resolution is correct with no visible compression artifacts. Some minor sharpness issues in text clarity.",
+            "issues": [
+              "Minor text clarity issues in ending_03.png"
+            ]
+          },
+          {
+            "dimension": "etsy_compliance",
+            "score": 9.0,
+            "weight": 0.2,
+            "justification": "All files are in correct formats and sizes. No inappropriate content detected.",
+            "issues": []
+          },
+          {
+            "dimension": "visual_appeal",
+            "score": 7.5,
+            "weight": 0.25,
+            "justification": "Strong visual appeal with clear focal points. Some compositions could benefit from improved hierarchy.",
+            "issues": [
+              "Composition hierarchy could be improved in starting_03.png"
+            ]
+          }
+        ],
+        "critical_issues": [],
+        "selected_images": {
+          "starting": "starting_01.png",
+          "live": "live_02.png",
+          "brb": "brb_02.png",
+          "ending": "ending_01.png",
+          "thumbnail_background": "thumbnail_01.png"
+        },
+        "deltas": [
+          "prompts.starting → Enhance: 'improve text clarity and contrast for better readability'",
+          "prompts.live → Adjust: 'increase brightness in the central area to highlight the main content'",
+          "prompts.brb → Refine: 'add more depth to the background for a more immersive feel'",
+          "prompts.ending → Simplify: 'reduce visual clutter to focus on the thank you message'",
+          "prompts.thumbnail_background → Vary: 'experiment with different neon color combinations for variety'"
+        ],
+        "automated_checks_passed": true
+      },
+      "variants_generated": 3,
+      "cost_usd": 0.0
+    },
+    {
+      "round_num": 2,
+      "timestamp": "2025-12-18T03:17:36.119848+00:00",
+      "prompts_used": {
+        "brb": "Be right back screen overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, depth-enhancing background with layers, room for status note, no people",
+        "ending": "Stream ending screen overlay, thank you zone, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, simplified composition to highlight the thank you message",
+        "live": "Live streaming overlay with chat frame, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, increased brightness in the central area for main content visibility, minimal clutter",
+        "starting": "Stream starting soon overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, improved text clarity and contrast for better readability, negative space for title",
+        "thumbnail_background": "YouTube thumbnail background, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, vibrant neon color combinations for variety, no text"
+      },
+      "evaluation": {
+        "pack_name": "e2e_pack",
+        "overall_score": 8.1,
+        "dimension_scores": [
+          {
+            "dimension": "brand_consistency",
+            "score": 8.5,
+            "weight": 0.3,
+            "justification": "The neon city theme is consistently applied across all images with vibrant neon colors and urban textures. However, some variations in font style slightly affect uniformity.",
+            "issues": [
+              "Inconsistent font style across some images"
+            ]
+          },
+          {
+            "dimension": "technical_quality",
+            "score": 8.0,
+            "weight": 0.25,
+            "justification": "All images meet the resolution requirement of 1920x1080. Minor compression artifacts are present in a few images but do not significantly detract from overall quality.",
+            "issues": [
+              "Minor compression artifacts in brb_03.png and ending_01.png"
+            ]
+          },
+          {
+            "dimension": "etsy_compliance",
+            "score": 9.0,
+            "weight": 0.2,
+            "justification": "File formats are correct, with PNG for overlays. No inappropriate content or copyright issues detected.",
+            "issues": []
+          },
+          {
+            "dimension": "visual_appeal",
+            "score": 7.5,
+            "weight": 0.25,
+            "justification": "The visual appeal is strong with a clear neon aesthetic. Some images lack a strong focal point, which could be improved for better viewer engagement.",
+            "issues": [
+              "Weak focal point in starting_01.png and ending_01.png"
+            ]
+          }
+        ],
+        "critical_issues": [],
+        "selected_images": {
+          "starting": "starting_02.png",
+          "live": "live_02.png",
+          "brb": "brb_01.png",
+          "ending": "ending_02.png",
+          "thumbnail_background": "thumbnail_02.png"
+        },
+        "deltas": [
+          "prompts.starting → Enhance: 'increase text prominence with glow effect for stronger focal point'",
+          "brand_tokens.texture → Refine: 'add more depth to neon reflections for a realistic look'",
+          "prompts.live → Adjust: 'ensure consistent font style across all overlays'",
+          "prompts.ending → Improve: 'create a more dynamic layout with varied text placement'",
+          "prompts.brb → Strengthen: 'enhance contrast between text and background for better readability'"
+        ],
+        "automated_checks_passed": true
+      },
+      "variants_generated": 2,
+      "cost_usd": 0.0
+    },
+    {
+      "round_num": 3,
+      "timestamp": "2025-12-18T03:20:11.493867+00:00",
+      "prompts_used": {
+        "brb": "Be right back screen overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, enhanced contrast between text and background for better readability, depth-enhancing background with layers, room for status note, no people",
+        "ending": "Stream ending screen overlay, thank you zone, {theme}, clean focal subject, dynamic layout with varied text placement, balanced margins, artifact-free, sharp edges, subtle glow, simplified composition to highlight the thank you message",
+        "live": "Live streaming overlay with chat frame, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, increased brightness in the central area for main content visibility, consistent font style across all overlays, minimal clutter",
+        "starting": "Stream starting soon overlay, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, increased text prominence with glow effect for stronger focal point, negative space for title",
+        "thumbnail_background": "YouTube thumbnail background, {theme}, clean focal subject, balanced margins, artifact-free, sharp edges, subtle glow, vibrant neon color combinations for variety, depth in neon reflections for a realistic look, no text"
+      },
+      "evaluation": {
+        "pack_name": "e2e_pack",
+        "overall_score": 8.1,
+        "dimension_scores": [
+          {
+            "dimension": "brand_consistency",
+            "score": 8.5,
+            "weight": 0.3,
+            "justification": "Strong neon color palette consistent across all images. The futuristic cityscape aligns well with the theme. Some variations in texture could enhance brand identity.",
+            "issues": [
+              "Texture variation needed for depth"
+            ]
+          },
+          {
+            "dimension": "technical_quality",
+            "score": 8.0,
+            "weight": 0.25,
+            "justification": "All images are sharp and clear with no visible artifacts. Resolution is correct for overlays. Minor aliasing in some text areas.",
+            "issues": [
+              "Minor text aliasing in live_03.png"
+            ]
+          },
+          {
+            "dimension": "etsy_compliance",
+            "score": 9.0,
+            "weight": 0.2,
+            "justification": "All file formats are correct. No inappropriate content detected. Ready for marketplace listing.",
+            "issues": []
+          },
+          {
+            "dimension": "visual_appeal",
+            "score": 7.0,
+            "weight": 0.25,
+            "justification": "Visually appealing with strong neon elements. Some screens lack a clear focal point, particularly in the starting and ending variants.",
+            "issues": [
+              "Weak focal point in starting_03.png",
+              "Ending screens lack hierarchy"
+            ]
+          }
+        ],
+        "critical_issues": [],
+        "selected_images": {
+          "starting": "starting_01.png",
+          "live": "live_02.png",
+          "brb": "brb_02.png",
+          "ending": "ending_01.png",
+          "thumbnail_background": "thumbnail_02.png"
+        },
+        "deltas": [
+          "prompts.starting → Enhance: 'add a strong central glow to emphasize the focal point'",
+          "brand_tokens.texture → Vary: 'introduce more texture depth with reflections and lighting'",
+          "prompts.ending → Refine: 'improve text hierarchy and focal point clarity'",
+          "prompts.live → Adjust: 'reduce text aliasing for sharper appearance'",
+          "prompts.brb → Strengthen: 'increase contrast for better text readability'"
+        ],
+        "automated_checks_passed": true
+      },
+      "variants_generated": 1,
+      "cost_usd": 0.0
+    }
+  ],
+  "completed": true,
+  "completion_reason": "CONTINUE: Max rounds reached with score 8.1/10"
+}

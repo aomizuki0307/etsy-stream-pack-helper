@@ -1,0 +1,18 @@
+# サンプルパック設定
+# 必要に応じてテーマやプロンプトを調整してください。
+theme: "ネオンシティの配信画面"
+resolution:
+  width: 1920
+  height: 1080
+prompts:
+  starting: "Stream starting soon overlay, {theme}, clean layout"
+  live: "Live streaming overlay with chat frame, {theme}, crisp typography"
+  brb: "Be right back screen overlay, {theme}, minimal"
+  ending: "Stream ending screen overlay, thank you message, {theme}"
+  thumbnail_background: "YouTube thumbnail background without text, {theme}, high detail"
+output:
+  filename_pattern: "{kind}_{index:02d}.png"
+  mockup_texts:
+    starting: "Starting Soon"
+    live: "Live Now"
+    ending: "Thanks for Watching"

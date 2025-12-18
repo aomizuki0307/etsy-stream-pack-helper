@@ -1,0 +1,53 @@
+brand_tokens:
+  composition: balanced layout with strong central focal glow, clearer focal point
+    with central visual element, enhanced composition hierarchy for better guidance,
+    more dynamic elements introduced for visual interest, varied dynamic elements
+    for enhanced engagement, reduced clutter for focus, created a more dynamic layout
+    with varied text placement
+  lighting: increased neon glow intensity with enhanced central glow to emphasize
+    focal point, soft natural light, increased contrast for sharper text readability,
+    balanced lighting to avoid overexposure in bright areas, strengthened central
+    focal glow for emphasis, increased brightness in central area, increased text
+    prominence with glow effect for stronger focal point
+  mood: ''
+  primary_colors:
+  - '#FF6B6B'
+  - '#4ECDC4'
+  - '#FFE66D'
+  secondary_colors:
+  - '#2C2C2C'
+  - '#3D3D3D'
+  - '#4E4E4E'
+  texture: clean surface, increased texture depth and contrast in neon elements, subtle
+    gradients, consistent neon intensity, subtle texture added to neon elements, enhanced
+    depth in neon reflections for realism, further depth added to neon reflections
+    for realism
+output:
+  filename_pattern: '{kind}_{index:02d}.png'
+  mockup_texts:
+    brb: Be Right Back
+    ending: Thanks for Watching
+    live: Live Now
+    starting: Starting Soon
+prompts:
+  brb: Be right back screen overlay, {theme}, clean focal subject, balanced margins,
+    artifact-free, sharp edges, enhanced contrast between text and background for
+    better readability, depth-enhancing background with layers, room for status note,
+    no people
+  ending: Stream ending screen overlay, thank you zone, {theme}, clean focal subject,
+    dynamic layout with varied text placement, balanced margins, artifact-free, sharp
+    edges, subtle glow, simplified composition to highlight the thank you message
+  live: Live streaming overlay with chat frame, {theme}, clean focal subject, balanced
+    margins, artifact-free, sharp edges, subtle glow, increased brightness in the
+    central area for main content visibility, consistent font style across all overlays,
+    minimal clutter
+  starting: Stream starting soon overlay, {theme}, clean focal subject, balanced margins,
+    artifact-free, sharp edges, subtle glow, increased text prominence with glow effect
+    for stronger focal point, negative space for title
+  thumbnail_background: YouTube thumbnail background, {theme}, clean focal subject,
+    balanced margins, artifact-free, sharp edges, subtle glow, vibrant neon color
+    combinations for variety, depth in neon reflections for a realistic look, no text
+resolution:
+  height: 1080
+  width: 1920
+theme: ネオンシティの配信画面

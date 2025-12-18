@@ -1,0 +1,26 @@
+[project]
+name = "stream-pack-builder"
+version = "0.1.0"
+description = "CLI to batch-generate streaming overlay packs using Google Gemini image APIs"
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "typer>=0.12",
+  "PyYAML>=6.0",
+  "pillow>=10.0",
+  "google-genai>=0.3.0",
+  "python-dotenv>=1.0",
+  "openai>=1.0.0",
+  "openai-agents>=0.1.0"
+]
+license = { file = "LICENSE" }
+
+[project.scripts]
+stream-pack = "stream_pack_builder.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
